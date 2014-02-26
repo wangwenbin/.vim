@@ -13,7 +13,7 @@
     git clone git@github.com:wangwenbin/.vim.git
     git submodule init
     git submodule update
-    cp ./.vimrc .
+    ln ./vimrc ~
 
 ####Update
 
