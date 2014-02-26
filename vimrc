@@ -1,3 +1,7 @@
+"wangwenbin's vimrc
+"(filename=.vimrc)
+"(filedir=~/)
+
 " 开启pathogen
 execute pathogen#infect()
 
@@ -50,10 +54,9 @@ set tabstop=4
 let g:syntastic_always_populate_loc_list=1
 
 "设置clang_complete
-let g:clang_complete_copen=1
 let g:clang_periodic_quickfix=1
 let g:clang_snippets=1
 let g:clang_close_preview=1
 let g:clang_use_library=1
 let g:clang_user_options='-stdlib=libc++ -std=c++11 -IIncludePath'
-
+let g:clang_complete_auto=1
