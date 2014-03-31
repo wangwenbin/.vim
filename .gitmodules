@@ -7,3 +7,9 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git@github.com:ervandew/supertab.git
+[submodule "bundle/vim-gocode"]
+	path = bundle/vim-gocode
+	url = git@github.com:jnwhiteh/vim-golang.git
+[submodule "bundle/AutoComplPop"]
+	path = bundle/AutoComplPop
+	url = git@github.com:vim-scripts/AutoComplPop.git

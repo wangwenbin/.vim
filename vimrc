@@ -58,10 +58,14 @@ let g:syntastic_cpp_compiler_options = '-std=c++11'
 "imap <F5> <Esc>:Errors<CR>i
 
 "设置clang_complete
-let g:clang_periodic_quickfix=1
+"let g:clang_periodic_quickfix=1
 let g:clang_snippets=1
 let g:clang_close_preview=1
 let g:clang_use_library=1
 "let g:clang_user_options='-stdlib=libc++ -std=c++11 -IIncludePath'
+let g:clang_user_options='-std=c++11'
 let g:clang_complete_auto=1
-let g:clang_complete_macros=1
+"let g:clang_complete_macros=1
+
+"设置自动补全
+let g:SuperTabDefaultCompletionType = "context"
