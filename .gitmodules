@@ -10,6 +10,6 @@
 [submodule "bundle/vim-gocode"]
 	path = bundle/vim-gocode
 	url = git@github.com:jnwhiteh/vim-golang.git
-[submodule "bundle/AutoComplPop"]
-	path = bundle/AutoComplPop
-	url = git@github.com:vim-scripts/AutoComplPop.git
+[submodule "bundle/neocomplete"]
+	path = bundle/neocomplete
+	url = git@github.com:Shougo/neocomplete.vim.git
