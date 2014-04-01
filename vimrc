@@ -32,7 +32,6 @@ syntax on
 highlight StatusLine guifg=SlateBlue guibg=Yellow
 highlight StatusLineiNC guifg=Gray guibg=White
 set showmatch
-set ci      " # 开启cindent
 set noet    " # 关闭expandtab
 set sw=4    " # shiftwidth=4
 
@@ -48,7 +47,7 @@ set cindent
 set tabstop=4
 
 " 在行和段开始处使用制表符
-"set smarttab
+set smarttab
 
 "设置syntics的自动检查
 let g:syntastic_always_populate_loc_list=1
@@ -78,5 +77,13 @@ let g:neocomplete#enable_at_startup=1
 " Use smartcase.
 let g:neocomplete#enable_smart_case = 1
 " Set minimum syntax keyword length.
-let g:neocomplete#sources#syntax#min_keyword_length = 2
+let g:neocomplete#sources#syntax#min_keyword_length = 4
 let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
+"设置ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+"<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+"<c-z>"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
