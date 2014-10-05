@@ -19,3 +19,9 @@
 [submodule "bundle/ultisnips"]
 	path = bundle/ultisnips
 	url = git@github.com:SirVer/ultisnips.git
+[submodule "bundle/vinarise"]
+	path = bundle/vinarise
+	url = git@github.com:Shougo/vinarise.vim.git
+[submodule "bundle/vim-nodejs"]
+	path = bundle/vim-nodejs
+	url = git@github.com:moll/vim-node.git

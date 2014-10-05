@@ -12,7 +12,7 @@ colorscheme koehler
 set nocp
 
 "设置文件编码
-set fileencodings=chinese,utf-8,ucs-bom
+set fileencodings=utf-8,chinese,ucs-bom
 
 "显示行号
 set number
@@ -33,7 +33,6 @@ highlight StatusLine guifg=SlateBlue guibg=Yellow
 highlight StatusLineiNC guifg=Gray guibg=White
 set showmatch
 set noet    " # 关闭expandtab
-set sw=4    " # shiftwidth=4
 
 "搜索忽略大小写
 set ignorecase
@@ -44,7 +43,8 @@ set autoindent
 set cindent
 
 " 制表符为4 
-set tabstop=4
+"set tabstop=4
+"set sw=4    " # shiftwidth=4
 
 " 在行和段开始处使用制表符
 set smarttab
